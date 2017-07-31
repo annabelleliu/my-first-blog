@@ -1,0 +1,64 @@
+
+body {
+  background-color:#efdee9;
+  font-size:25px;
+  font-family: 'Cormorant Garamond',serif;
+}
+
+h1
+{
+  color:#8b668b;
+  font-size: 75px;
+  font-family: "Caveat";
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 20px;
+}
+
+h2{
+  color:#8b668b;
+  font-size:35px;
+  font-family: "Caveat";
+  text-decoration: underline;
+}
+
+p
+{
+  color: #54364f;
+}
+#greeting {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1px;
+}
+#nav {
+  overflow: auto;
+}
+#nav li {
+  list-style-type: none;
+  float:left;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+#SocialMedia{
+  overflow: auto;
+}
+#SocialMedia p {
+  float:left;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+ul.icon{
+  list-style-type: none;
+}
+ul.icon li:before{
+  font-family: bullets;
+  content:"\002a";
+  color:#8b668b;
+  float:left;
+  width:1em;
+}
+img{
+  display: block;
+  margin: auto;
+}
